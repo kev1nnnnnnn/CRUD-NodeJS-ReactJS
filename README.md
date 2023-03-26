@@ -11,6 +11,6 @@ Realizar a importação do banco de dados mysql antes de startar o backend.
 `npm install`
 `npm tart`
 
-# Pasta Client
+# Pasta CLIENT
 `npm install`
 `npm start`
