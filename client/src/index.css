@@ -1,0 +1,43 @@
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.catalogue {
+  margin-top: 3em;
+}
+
+body {
+  background-color: #fff;
+  background-image: linear-gradient(45deg, #03052C, #4B0082);
+  background-size: 600% 600%;
+  animation: gradient 20s ease infinite;
+}
+/* ANIMAÇÃO NO BODY */
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+/* SCROOL */
+::-webkit-scrollbar {
+    width: 10px; 
+    height: 10px; 
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #F3732F;
+    border-radius: 4px; 
+}
+
+::-webkit-scrollbar-track {
+    background-color: #03052C; 
+}
