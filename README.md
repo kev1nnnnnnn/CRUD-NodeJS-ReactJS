@@ -7,10 +7,10 @@ Realizar a importação do banco de dados mysql antes de startar o backend.
 
 #navegar até a pasta creathus
 
-# Pasta SERVER
+# Dentro da pasta SERVER
 `npm install`
 `npm tart`
 
-# Pasta CLIENT
+# Dentro da pasta CLIENT
 `npm install`
 `npm start`
